@@ -25,7 +25,7 @@ def read_input_file(file_path):
     with open(file_path, 'r') as file:
         return [line.strip() for line in file]
 
-file_path = 'AoC/2023_1.txt'
+file_path = '1.txt'
 lines = read_input_file(file_path)
 result1 = part1(lines)
 result2 = part2(lines)
